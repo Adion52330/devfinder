@@ -30,11 +30,9 @@ function App() {
   const [loading, setLoading] = useState(false);
   // const [error, setError] = useState(false);
   const [ift, setIft] = useState();
-  const [kuku, setKuku] = useState(false);
   const [theme, setTheme] = useState("dark");
 
   const fetchApi = () => {
-    setKuku(true);
     setLoading(true);
     if (username === "") {
       setLoading(true);
